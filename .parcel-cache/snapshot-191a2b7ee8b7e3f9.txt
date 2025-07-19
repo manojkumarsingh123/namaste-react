@@ -1,4 +1,4 @@
-3599
+3601
 115G:\Learning\namste react js\Namste React Project\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs133973872587778010 0
 72G:\Learning\namste react js\Namste React Project\node_modules\parcel\lib133973872629385697 1
 137G:\Learning\namste react js\Namste React Project\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133973872644953998 0
@@ -8,7 +8,7 @@
 104G:\Learning\namste react js\Namste React Project\node_modules\@parcel\transformer-react-refresh-wrap\lib133973872608627549 1
 80G:\Learning\namste react js\Namste React Project\node_modules\fill-range\LICENSE133973872536235613 0
 111G:\Learning\namste react js\Namste React Project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133973872616606165 0
-61G:\Learning\namste react js\Namste React Project\package.json133973910870835819 0
+61G:\Learning\namste react js\Namste React Project\package.json133974054326420731 0
 107G:\Learning\namste react js\Namste React Project\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133973872622598920 0
 82G:\Learning\namste react js\Namste React Project\node_modules\@parcel\packager-raw133973872617974230 1
 79G:\Learning\namste react js\Namste React Project\node_modules\lmdb\src\misc.cpp133973872654986109 0
@@ -32,9 +32,9 @@
 118G:\Learning\namste react js\Namste React Project\node_modules\@swc\helpers\esm\_class_static_private_field_spec_get.js133973872643266643 0
 111G:\Learning\namste react js\Namste React Project\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133973872650581043 0
 110G:\Learning\namste react js\Namste React Project\node_modules\@parcel\runtime-js\src\helpers\node\js-loader.js133973872635695266 0
-53G:\Learning\namste react js\Namste React Project\dist133973912138212333 1
+53G:\Learning\namste react js\Namste React Project\dist133974084605352473 1
 96G:\Learning\namste react js\Namste React Project\node_modules\@parcel\events\src\ValueEmitter.js133973872635172263 0
-59G:\Learning\namste react js\Namste React Project\.gitignore133973907914792347 0
+59G:\Learning\namste react js\Namste React Project\.gitignore133973915519281329 0
 113G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js133973872637065405 0
 98G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\webgl2.js133973872699376571 0
 100G:\Learning\namste react js\Namste React Project\node_modules\@parcel\types-internal\src\FilePath.js133973872567681740 0
@@ -43,7 +43,7 @@
 84G:\Learning\namste react js\Namste React Project\node_modules\@lezer\lr\package.json133973872604966283 0
 123G:\Learning\namste react js\Namste React Project\node_modules\@parcel\package-manager\test\getCurrentPackageManager.test.js133973872624275734 0
 104G:\Learning\namste react js\Namste React Project\node_modules\@swc\helpers\src\_wrap_async_generator.mjs133973872684153720 0
-55G:\Learning\namste react js\Namste React Project\app.js133973890307195697 0
+55G:\Learning\namste react js\Namste React Project\app.js133974087114632395 0
 100G:\Learning\namste react js\Namste React Project\node_modules\scheduler\cjs\scheduler.development.js133973888012576652 0
 101G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\dragndrop.js133973872674022348 0
 98G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\test\serializer.test.js133973872670799860 0
@@ -57,7 +57,7 @@
 91G:\Learning\namste react js\Namste React Project\node_modules\@parcel\watcher\src\Signal.hh133973872580956631 0
 101G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\mpeg-dash.js133973872689913958 0
 72G:\Learning\namste react js\Namste React Project\node_modules\micromatch133973872553107891 1
-59G:\Learning\namste react js\Namste React Project\index.html133973891410207870 0
+59G:\Learning\namste react js\Namste React Project\index.html133974086084922919 0
 105G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\input-pattern.js133973872684463122 0
 68G:\Learning\namste react js\Namste React Project\node_modules\semver133973872586300843 1
 93G:\Learning\namste react js\Namste React Project\node_modules\@swc\helpers\src\_construct.mjs133973872681351298 0
@@ -1299,7 +1299,7 @@
 79G:\Learning\namste react js\Namste React Project\node_modules\lmdb\dependencies133973872661431544 1
 71G:\Learning\namste react js\Namste React Project\node_modules\lmdb\dict133973872669311790 1
 109G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\css-logical-props.js133973872657054907 0
-64G:\Learning\namste react js\Namste React Project\dist\index.html133973912137395900 0
+64G:\Learning\namste react js\Namste React Project\dist\index.html133974084605264802 0
 81G:\Learning\namste react js\Namste React Project\node_modules\escalade\index.d.ts133973872538572188 0
 111G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133973872650716811 0
 111G:\Learning\namste react js\Namste React Project\node_modules\@parcel\runtime-js\lib\helpers\node\css-loader.js133973872621819156 0
@@ -1642,7 +1642,7 @@
 101G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\innertext.js133973872683986465 0
 80G:\Learning\namste react js\Namste React Project\node_modules\globals\index.d.ts133973872563734347 0
 90G:\Learning\namste react js\Namste React Project\node_modules\@swc\helpers\_\_create_class133973872669972010 1
-86G:\Learning\namste react js\Namste React Project\dist\Namste React Project.f72d0d54.js133973912137927595 0
+86G:\Learning\namste react js\Namste React Project\dist\Namste React Project.f72d0d54.js133974056036289684 0
 110G:\Learning\namste react js\Namste React Project\node_modules\caniuse-lite\data\features\css-color-function.js133973872647649671 0
 77G:\Learning\namste react js\Namste React Project\node_modules\globals\license133973872557213955 0
 87G:\Learning\namste react js\Namste React Project\node_modules\@parcel\error-overlay\lib133973872576209700 1
@@ -3329,6 +3329,7 @@
 96G:\Learning\namste react js\Namste React Project\node_modules\@parcel\optimizer-swc\package.json133973872618928748 0
 103G:\Learning\namste react js\Namste React Project\node_modules\@parcel\optimizer-swc\src\SwcOptimizer.js133973872618277916 0
 103G:\Learning\namste react js\Namste React Project\node_modules\@parcel\optimizer-swc\lib\SwcOptimizer.js133973872617617154 0
+86G:\Learning\namste react js\Namste React Project\dist\Namste React Project.3464ddca.js133974084605264802 0
 93G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\lib\projectPath.js133973872669182041 0
 87G:\Learning\namste react js\Namste React Project\node_modules\@parcel\optimizer-svg\lib133973872620235263 1
 103G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\src\requests\EntryRequest.js133973872656033531 0
@@ -3482,7 +3483,7 @@
 115G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\test\fixtures\config\subfolder\.parcelrc133973872637747056 0
 123G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\test\fixtures\common-targets-ignore\package.json133973872674691354 0
 121G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\test\fixtures\application-targets\package.json133973872674597688 0
-91G:\Learning\namste react js\Namste React Project\dist\Namste React Project.9e4c6fd2.css.map133973912137497242 0
+91G:\Learning\namste react js\Namste React Project\dist\Namste React Project.9e4c6fd2.css.map133974084605242016 0
 95G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\src\applyRuntimes.js133973872643323159 0
 92G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\src\buildCache.js133973872647870710 0
 91G:\Learning\namste react js\Namste React Project\node_modules\@parcel\core\src\constants.js133973872654154164 0
@@ -3596,5 +3597,6 @@
 77G:\Learning\namste react js\Namste React Project\node_modules\.bin\semver.ps1133973872749113933 0
 93G:\Learning\namste react js\Namste React Project\node_modules\.bin\update-browserslist-db.cmd133973872749126364 0
 93G:\Learning\namste react js\Namste React Project\node_modules\.bin\update-browserslist-db.ps1133973872749126364 0
-87G:\Learning\namste react js\Namste React Project\dist\Namste React Project.9e4c6fd2.css133973912137340056 0
-90G:\Learning\namste react js\Namste React Project\dist\Namste React Project.f72d0d54.js.map133973912138212333 0
+90G:\Learning\namste react js\Namste React Project\dist\Namste React Project.3464ddca.js.map133974084605308887 0
+87G:\Learning\namste react js\Namste React Project\dist\Namste React Project.9e4c6fd2.css133974084605172377 0
+90G:\Learning\namste react js\Namste React Project\dist\Namste React Project.f72d0d54.js.map133974056036313824 0
