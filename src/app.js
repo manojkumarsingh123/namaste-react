@@ -6,7 +6,7 @@ import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact"; // this is used to import the Contact component
 import RestaurantMenu from "./components/RestaurantMenu";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router"; // this is used to import react-router-dom library
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"; // this is used to import react-router-dom library
 
 //component
 const AppLayout = () => {
@@ -37,7 +37,7 @@ const appRouter = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/restaurant/:resId", // this is the path for the restaurant menu page
+        path: "/restaurants/:resId", // this is the path for the restaurant menu page
         element: <RestaurantMenu />, // this is the element that will be rendered for the restaurant
       },
     ],

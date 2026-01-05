@@ -1,10 +1,25 @@
-const { useRouteError } = require("react-router");
+// import errorImage from "../utils/images/";
+import { Link, useRouteError } from "react-router-dom";
+
 const Error = () => {
-  const error = useRouteError();
+  const err = useRouteError();
+
   return (
-    <div>
-      <h1>Oops! Something went wrong.</h1>
-      <p>{error.status}</p>
+    <div className="error-page">
+      <div className="error-image">
+        {/* <img src={errorImage} alt="Error Image" /> */}
+      </div>
+
+      <div className="error-details">
+        <h1>Oops! Something Went Wrong!!</h1>
+        <h3 className="error-data">{err.data}</h3>
+
+        <h3 className="error-back-home">
+          <Link className="link-name" to="/">
+            Back Home
+          </Link>
+        </h3>
+      </div>
     </div>
   );
 };

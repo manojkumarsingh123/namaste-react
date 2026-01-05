@@ -1,14 +1,40 @@
-const Shimmer = () => {
+export const RestaurantShimmer = () => {
   return (
-    <div className="shimmer-container">
-      <div className="shimmer-item"></div>
-      <div className="shimmer-item"></div>
-      <div className="shimmer-item"></div>
-      <div className="shimmer-item"></div>
-      <div className="shimmer-item"></div>
-      <div className="shimmer-item"></div>
+    <div className="body">
+      <div className="shimmer-search-box"></div>
+      <div className="restaurant-container">
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+      </div>
     </div>
   );
 };
 
-export default Shimmer;
+export const RestaurantMenuShimmer = () => {
+  return (
+    <div className="shimmer-menu">
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+    </div>
+  );
+};

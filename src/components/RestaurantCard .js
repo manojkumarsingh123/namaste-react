@@ -1,17 +1,47 @@
-import { CDN_URL } from "../utils/constants";
-//restaurant card component
-const RestaurantCard = (props) => {
-  const { resData } = props;
-  console.log("resData", resData);
-  const { name, cuisines, avgRating, cloudinaryImageId, locality } = resData;
+import { Link } from "react-router-dom";
+import { IMG_CDN_URL } from "../utils/constants";
+// import { MdStarRate } from "react-icons/md";
+
+const RestaurantCard = ({
+  id,
+  cloudinaryImageId,
+  name,
+  areaName,
+  sla,
+  cuisines,
+  costForTwo,
+  avgRatingString,
+}) => {
   return (
-    <div className="res-card">
-      <img className="res-logo" src={CDN_URL + cloudinaryImageId} alt={name} />
-      <h5>{name}</h5>
-      <h4>{cuisines}</h4>
-      <h4>{avgRating}</h4>
-      <h4>{locality}</h4>
-    </div>
+    <Link to={"/restaurants/" + id} className="restaurant-card">
+      <img
+        src={IMG_CDN_URL + cloudinaryImageId}
+        alt={name}
+        className="restaurant-image"
+      />
+      <div className="restaurant-details">
+        <h3 className="restaurant-name">
+          {name.length > 24 ? name.slice(0, 21) + "..." : name.slice(0, 24)}
+        </h3>
+        <div className="esa-rating">
+          <h4 className="rating">
+            {/* className="rating-logo" style=
+            {avgRatingString > 4.0
+              ? { backgroundColor: "var(--green)" }
+              : { backgroundColor: "var(--red)" }} */}
+            <span>{avgRatingString}</span>
+          </h4>
+          <h4>{costForTwo}</h4>
+          <h4>{sla.deliveryTime} mins</h4>
+        </div>
+        <p className="cousine">
+          {cuisines.join(", ").length > 32
+            ? cuisines.join(", ").slice(0, 28) + "..."
+            : cuisines.join(", ").slice(0, 32)}
+        </p>
+        <p className="location">{areaName}</p>
+      </div>
+    </Link>
   );
 };
 

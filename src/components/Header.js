@@ -1,33 +1,48 @@
-import { LOGO_URL } from "../utils/constants";
 import { useState } from "react";
-import { Link } from "react-router"; // this is used to import Link from react-router-dom
+import { Link, useNavigate } from "react-router-dom";
+// import tastyTrailsLogo from "../../../../public/images/tasty-trails-logo.png";
+// import { FaCartArrowDown } from "react-icons/fa";
+
 const Header = () => {
-  const [btnName, setBtnName] = useState("Login");
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const navigate = useNavigate();
+
   return (
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <Link to="/">
+          {/* <img className="logo" src={tastyTrailsLogo} alt="Tasty Trails Logo" /> */}
+        </Link>
       </div>
+
       <div className="nav-items">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link className="nav-links" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about"> About Us</Link>
+            <Link className="nav-links" to="/about">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <Link className="nav-links" to="/contact">
+              Contact
+            </Link>
           </li>
-          <li>Card</li>
-          <button
-            className="login-btn"
-            onClick={() => {
-              btnName === "Login" ? setBtnName("Logout") : setBtnName("Login");
-            }}
-          >
-            {btnName}
-          </button>
+          <li className="nav-links">{/* <FaCartArrowDown /> */}</li>
+
+          {isLoggedIn ? (
+            <button className="login" onClick={() => setIsLoggedIn(false)}>
+              Logout
+            </button>
+          ) : (
+            <button className="login" onClick={() => navigate("/login")}>
+              Login
+            </button>
+          )}
         </ul>
       </div>
     </div>
