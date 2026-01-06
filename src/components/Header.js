@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 // import tastyTrailsLogo from "../../../../public/images/tasty-trails-logo.png";
 // import { FaCartArrowDown } from "react-icons/fa";
 
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const navigate = useNavigate();
+
+  const onlineStatus = useOnlineStatus();
 
   return (
     <div className="header">
@@ -17,6 +20,7 @@ const Header = () => {
 
       <div className="nav-items">
         <ul>
+          <li>online Status: {onlineStatus ? "🟢" : "🔴"}</li>
           <li>
             <Link className="nav-links" to="/">
               Home

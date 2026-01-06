@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import RestaurantCard from "../../src/components/RestaurantCard ";
 import { RestaurantShimmer } from "./Shimmer";
 import { SWIGGY_API_URL, SWIGGY_REST_API_PATH } from "../utils/constants";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -35,6 +36,14 @@ const Body = () => {
     setSearchRestaurant(""); // Clear the search input box after search
     setRestaurantName(searchRestaurant);
   };
+
+  // Here if net if off them return this else will display everything as before
+
+  const onlineStatus = useOnlineStatus();
+
+  if (onlineStatus === false) {
+    return <h1>You are offline</h1>;
+  }
   // Conditional rendering using ternary operator
   return listOfRestaurants.length === 0 ? (
     <RestaurantShimmer />

@@ -1,31 +1,36 @@
 import { useState, useEffect } from "react";
 import { MENU_API_URL, IMG_CDN_URL } from "../utils/constants";
 import { RestaurantMenuShimmer } from "./Shimmer";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 // import { MdStarRate } from "react-icons/md";
 import { useParams } from "react-router-dom";
 // import "../styles/RestaurantMenu.css";
 
 const RestaurantMenu = () => {
   console.log("Reached to RestaurantMenu Component");
-  const [restaurantInfo, setRestaurantInfo] = useState(null);
+
+  //Lets separate fetching data in separate custom hook and just use the result instead of calling the api resmenu component job only to show the data not fetch the data
+  // const [restaurantInfo, setRestaurantInfo] = useState(null);
   const { resId } = useParams();
 
-  const fetchMenusData = async () => {
-    try {
-      const data = await fetch(MENU_API_URL + resId);
-      console.log("data", data);
-      const json = await data.json();
-      console.log("JSON", json);
+  const restaurantInfo = useRestaurantMenu(resId);
 
-      setRestaurantInfo(json?.data);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
+  // const fetchMenusData = async () => {
+  //   try {
+  //     const data = await fetch(MENU_API_URL + resId);
+  //     console.log("data", data);
+  //     const json = await data.json();
+  //     console.log("JSON", json);
 
-  useEffect(() => {
-    fetchMenusData();
-  }, []);
+  //     setRestaurantInfo(json?.data);
+  //   } catch (error) {
+  //     console.error("Error fetching data:", error);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchMenusData();
+  // }, []);
 
   if (restaurantInfo === null) {
     return <RestaurantMenuShimmer />;
